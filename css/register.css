@@ -1,0 +1,145 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 注册页头部 */
+.header {
+    height: 80px;
+    border-bottom: 1px solid #c81623;
+    line-height: 80px;
+}
+
+/* 注册页主体 */
+.registerarea {
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #ececec;
+}
+
+.reg_hd {
+    height: 42px;
+    background-color: #ececec;
+    line-height: 42px;
+}
+
+.reg_hd h3 {
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.reg_hd span {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.error_icon {
+    display: inline-block;
+    margin-top: -3px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/error.png);
+    vertical-align: middle
+}
+
+.success_icon {
+    display: inline-block;
+    margin-top: -3px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/success.png);
+    vertical-align: middle
+}
+
+.reg_form ul .safe {
+    margin: -12px 0 10px 166px;
+}
+
+.safe em {
+    display: inline-block;
+    margin-left: 1px;
+    width: 34px;
+    height: 12px;
+    text-align: center;
+    line-height: 12px;
+    color: #fff;
+}
+
+.rou {
+    background-color: red;
+}
+
+.zhon {
+    background-color: green;
+}
+
+.qian {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-left: 85px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.reg_form ul .agree input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.reg_form ul .agree span {
+    margin-left: 5px;
+}
+
+.reg_form ul .agree span a {
+    margin-left: 5px;
+    color: skyblue;
+}
+
+.reg_form ul .tijiao input {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}

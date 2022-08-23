@@ -1,0 +1,170 @@
+/* 字体申明 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* logo秒杀 */
+.miaosha {
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    width: 80px;
+    height: 35px;
+    border-left: 1px solid #c81623;
+    text-align: center;
+    line-height: 35px;
+}
+
+/* list导航条 */
+.nav_hd {
+    margin-left: 30px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.nav_hd h1 {
+    float: left;
+    padding-right: 56px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.tab_list ul li {
+    float: left;
+    margin-top: 13px;
+    padding-right: 40px;
+    font-size: 14px;
+}
+
+.tab_list ul li:nth-child(9) a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+/* 列表页主体 */
+.item_bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid #c81623;
+}
+
+.item_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.item_bd ul li img {
+    margin-left: 3px;
+}
+
+.item_bd ul li p {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.item_bd ul li .jiage {
+    margin: 10px 0 5px 10px;
+}
+
+.item_bd ul li h3 {
+    display: inline;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.item_bd ul li .jiage span {
+    margin-left: 5px;
+    text-decoration: line-through
+}
+
+.inventory p {
+    float: left;
+}
+
+.inventory>div {
+    float: left;
+    margin: 5px 5px 0 10px;
+    width: 130px;
+    height: 12px;
+    border-radius: 6px;
+    border: 1px solid #e60012;
+}
+
+.inventory .tpb {
+    width: 50px;
+    height: 11px;
+    background-color: #e60012;
+    border-radius: 5px 0 0 5px;
+    transition: all .2s;
+}
+
+.tpb:hover {
+    width: 130px;
+    border-radius: 5px;
+}
+
+.item_bd ul li a {
+    display: block;
+    margin-top: 33px;
+    width: 289px;
+    height: 50px;
+    background-color: #e60012;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.gtt {
+    font-family: 'icomoon';
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    margin-left: 605px;
+    width: 70px;
+    height: 140px;
+    background-color: #b1191a;
+}
+
+.gtt ul li {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gtt ul li a {
+    display: block;
+    padding-top: 4px;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+}
+
+.gtt ul li:nth-child(1) {
+    border-bottom: 1px solid #fff;
+}
+
+.gtt ul li:nth-child(1) a::after {
+    content: '\e921';
+    position: absolute;
+    top: -15px;
+    right: 26px;
+}
+
+.gtt ul li:nth-child(2) a::after {
+    content: '\e958';
+    position: absolute;
+    right: 14px;
+    font-size: 40px;
+}
